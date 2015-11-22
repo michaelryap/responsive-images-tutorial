@@ -14,10 +14,10 @@ Our sites have typically been designed with a max width of 1,440 pixels.
 
 ![alt tag](docs/hodinkee.jpg)
 
-*The maximim width of the site pictured above is 1,440 pixels. On a 4K display more than one thousand pixels occupy the space to the right and left hand side of its design. On a 5K display, almost two thousand pixels buffers each side.*
+<sub>The maximim width of the site pictured above is 1,440 pixels. On a 4K display more than one thousand pixels occupy the space to the right and left hand side of its design. On a 5K display, almost two thousand pixels buffers each side.</sub>
 
 Since 2010, savvy developers have been building sites with fluid widths, whereby its grid, images, and text dynamically scale according to the width of the observing browser.
 
 ![alt tag](docs/discontent-hero.jpg)
 
-<sub>Notice how the layout of [The Great Discontent](http://thegreatdiscontent.com) occupies the entire width of the observing browser.</sub>
+<sub>Notice how the layout of [The Great Discontent](http://thegreatdiscontent.com) on a 4K display occupies the entire width of the observing browser.</sub>
