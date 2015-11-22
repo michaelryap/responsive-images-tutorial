@@ -20,4 +20,4 @@ Since 2010, savvy developers have been building sites with fluid widths, whereby
 
 ![alt tag](docs/discontent-hero.jpg)
 
-*Notice how the layout of [The Great Discontent](http://thegreatdiscontent.com) occupies the entire width of the observing browser.*
+<sub>Notice how the layout of [The Great Discontent](http://thegreatdiscontent.com) occupies the entire width of the observing browser.</sub>
