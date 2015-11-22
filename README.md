@@ -14,5 +14,5 @@ Our sites have typically been designed with a max dimension of 1,440 pixels wide
 
 ![alt tag](docs/hodinkee.jpg)
 
-*Hondikee's maximim width is 1,440 pixels wide. On a 4K display, 1,328 pixels occupy the space to the right and left hand side of it's design. On a 5K display, 1,840 buffers each side.*
+*Hondikee's maximim width is 1,440 pixels wide. On a 4K display, 1,328 pixels occupy the space to the right and left hand side of its design. On a 5K display, 1,840 pixels buffers each side.*
 
