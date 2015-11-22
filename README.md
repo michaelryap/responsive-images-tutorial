@@ -8,11 +8,11 @@ In October of 2015, Apple announced all 27-inch iMacs will be sold with a 5K dis
 
 ![alt tag](docs/4K.png)
 
-5K resolution refers to a pixel dimension of 5,120 × 2,880, equivalent to about 14.7 million pixels.
+*5K resolution refers to a pixel dimension of 5,120×2,880, equivalent to about 14.7 million pixels.*
 
-Our sites have typically been designed with a max dimension of 1,440 pixels wide.
+Our sites have typically been designed with a max width of 1,440 pixels.
 
 ![alt tag](docs/hodinkee.jpg)
 
-*Hondikee's maximim width is 1,440 pixels wide. On a 4K display, 1,328 pixels occupy the space to the right and left hand side of its design. On a 5K display, 1,840 pixels buffers each side.*
+*The maximim width of the site pictured above is 1,440 pixels. On a 4K display—shown above—more than one thousand pixels occupy the space to the right and left hand side of its design. On a 5K display, almost two thousand pixels buffers each side.*
 
