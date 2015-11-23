@@ -14,11 +14,11 @@ In October of 2015, Apple announced all 27-inch iMacs will be sold with a [5K di
 
 <sub>The maximim width of the sites like the one pictured above is 1,440 pixels. On a 4K display more than one thousand pixels occupy the space to the its right and left hand side. On a 5K display, almost two thousand pixels buffers each side.</sub>
 
-Since [2010](http://alistapart.com/article/responsive-web-design), savvy developers have been building sites with fluid widths—whereby its grid, images, and text dynamically scale according to the width of the observing browser.
+Since [2010](http://alistapart.com/article/responsive-web-design), savvy developers like [The Great Discontent](http://thegreatdiscontent.com) have been building sites with fluid widths—whereby its grid, images, and text dynamically scale according to the width of the observing browser.
 
 ![alt tag](docs/discontent-hero.jpg)
 
-<sub>Notice how the layout of [The Great Discontent](http://thegreatdiscontent.com) on a 4K display occupies the entire width of the observing browser.</sub>
+<sub>Notice how the layout of The Great Discontent on a 4K display occupies the entire width of the observing browser.</sub>
 
 ![alt tag](docs/discontent-body.jpg)
 
@@ -31,4 +31,20 @@ Let’s practice responsive web design by creating a fluid-width layout of cabin
 **Step 1**
 
 Fire up Sublime Text and create a new HTML file.
+
+````
+<!doctype html>
+
+<html>
+
+<head>
+	<meta charset="utf-8" >
+	<style></style>
+</head>
+
+<body></body>
+
+</html>
+
+````
 
