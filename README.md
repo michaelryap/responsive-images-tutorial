@@ -2,7 +2,7 @@
 
 ##Introduction
 
-Over time, device manufacturers like Apple offer displays with higher and higher resolutions.
+Device manufacturers compete by offering displays with higher-and-higher resolutions with each release cycle.
 
 In October of 2015, Apple announced all 27-inch iMacs will be sold with a [5K display](www.theverge.com/2015/10/13/9512503/apple-imac-update-27-inch-5k-price-release-date-specs).
 
@@ -18,11 +18,11 @@ Since [2010](http://alistapart.com/article/responsive-web-design), savvy sites l
 
 ![alt tag](docs/discontent-hero.jpg)
 
-*Notice how the layout of The Great Discontent on a 4K display occupies the entire width of the observing browser.*
+*Notice how the artwork of The Great Discontent occupies the entire width of a 4K display, creating an immersive experience.*
 
 ![alt tag](docs/discontent-body.jpg)
 
-*The Great Discontent defines its container by the observing browser-width rather than a fixed-dimension.*
+*The Great Discontent dynamically scales its grid and type system according to browser-width rather than setting elements to a fixed-dimension.*
 
 ##Fluid Width Images
 
@@ -32,7 +32,7 @@ Let’s practice responsive web design by creating a fluid-width layout of cabin
 
 Download the [ZIP file](https://github.com/michaelryap/responsive-images-tutorial/archive/master.zip) containing the images we’ll be using.
 
-Inspect the files within the folder labeled "img".
+Inspect the files within the folder labeled “img”.
 
 **Step 2**
 
