@@ -197,6 +197,97 @@ Write the rules required to set the columns according to each set of browser-wid
 
 ```
 
+##Art-directed Responsive Images
 
+Media queries are a pain to write—they require lots of typing and indentation.
 
+Luckily, the smart people of the Responsive Issues Community Group (RICG) have been working to modify the HTML5 specification to make our lives easier.
 
+In short, they’ve introduced the `<picture>` element to allow us to easily specify which image is displayed according to a browser’s width.
+
+**Step 1**
+
+Create a new HTML file.
+
+```
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8" >
+
+	<style></style>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
+```
+
+**Step 2**
+
+Add a simple style that displays all images to 100% the width of its container.
+
+```
+<style>
+	img {
+		width: 100%;
+	}
+</style>
+```
+
+**Step 3**
+
+Add a new image and surround it with `<picture>` tags
+
+```
+<picture>
+	<img src="img/pluto.jpg"/>
+</picture>
+```
+
+**Step 4**
+Add rules to display alternative images depending on the observing browser’s width.
+
+```
+<source media="(min-width: 1440px)" srcset="img/pluto-cinemascope.jpg">
+<source media="(min-width: 960px)" srcset="img/pluto-hd.jpg">
+````
+
+**The Finished Exercise**
+
+```
+<!doctype html>
+
+<html>
+
+<head>
+
+	<meta charset="utf-8" >
+
+	<style>
+		img {
+			width: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<picture>
+		<source media="(min-width: 1440px)" srcset="img/pluto-cinemascope.jpg">
+		<source media="(min-width: 960px)" srcset="img/pluto-hd.jpg">
+		<img src="img/pluto.jpg"/>
+	</picture>
+
+</body>
+
+</html>
+
+```
