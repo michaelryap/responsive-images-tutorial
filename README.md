@@ -168,27 +168,16 @@ Write the rules required to set the columns according to each set of browser-wid
 		<p>My width is </p>
 
 		<img src="img/cabin-porn-1.jpg" />
-
 		<img src="img/cabin-porn-2.jpg" />
-
 		<img src="img/cabin-porn-3.jpg" />
-
 		<img src="img/cabin-porn-4.jpg" />
-
 		<img src="img/cabin-porn-5.jpg" />
-
 		<img src="img/cabin-porn-6.jpg" />
-
 		<img src="img/cabin-porn-7.jpg" />
-
 		<img src="img/cabin-porn-8.jpg" />
-
 		<img src="img/cabin-porn-9.jpg" />
-
 		<img src="img/cabin-porn-10.jpg" />
-
 		<img src="img/cabin-porn-11.jpg" />
-
 		<img src="img/cabin-porn-12.jpg" />
 
 	</body>
@@ -201,7 +190,7 @@ Write the rules required to set the columns according to each set of browser-wid
 
 Media queries are a pain to write—they require lots of typing and indentation.
 
-Luckily, the smart people of the Responsive Issues Community Group (RICG) have been working to modify the HTML5 specification to make our lives easier.
+Luckily, the smart people of the [Responsive Issues Community Group (RICG)](https://www.w3.org/community/respimg/) have been working to modify the HTML5 specification to make our lives easier.
 
 In short, they’ve introduced the `<picture>` element to allow us to easily specify which image is displayed according to a browser’s width.
 
