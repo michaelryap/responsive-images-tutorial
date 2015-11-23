@@ -32,6 +32,8 @@ Let’s practice responsive web design by creating a fluid-width layout of cabin
 
 Download the [ZIP file](https://github.com/michaelryap/responsive-images-tutorial/archive/master.zip) containing the images we’ll be using.
 
+Inspect the files within the folder labeled "img".
+
 **Step 2**
 
 Fire up Sublime Text and create a new HTML file.
@@ -70,9 +72,35 @@ Add the images.
 <img src="img/cabin-porn-12.jpg" />
 ````
 
+Let’s envision a scenario whereby we wish to dynamically scale the cabin images in columns of increasing number as the observing browser-width increases.
+
+If you open the page we’ve created in your browser, the columns increase in number as the observing browser-width increases, but the images don't dynamically scale.
+
+Let’s fix that.
+
 **Step 3**
 
-Add a paragraph to display messages. (This will make sense in about 6 more lines of code.)
+Add a paragraph to display messages to ourselves. (This will make sense in about 6 more lines of code.)
 
 `<p>My width is </p>`
+
+**Step 4**
+
+Let’s establish our logic in psuedocode.
+
+When the browser-width is 0 to 480 pixels, dynamically scale the images within a single column.
+
+When the browser-width is 480 to 960 pixels, dynamically scale the images within two columns.
+
+When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns.
+
+When the browser-width is 1440 pixels and above, dynamically scale the images within four columns.
+
+````
+@media (min-width: 0px) and (max-width: 480px){
+	p:after { content: "between 0 and 480px"; }
+}
+````
+
+
 
