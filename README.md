@@ -30,6 +30,10 @@ Let’s practice responsive web design by creating a fluid-width layout of cabin
 
 **Step 1**
 
+Download the [ZIP file](https://github.com/michaelryap/responsive-images-tutorial/archive/master.zip) containing the images we’ll be using.
+
+**Step 2**
+
 Fire up Sublime Text and create a new HTML file.
 
 ````
@@ -45,6 +49,30 @@ Fire up Sublime Text and create a new HTML file.
 <body></body>
 
 </html>
+````
+
+**Step 2**
+
+Add the images.
 
 ````
+<img src="img/cabin-porn-1.jpg" />
+<img src="img/cabin-porn-2.jpg" />
+<img src="img/cabin-porn-3.jpg" />
+<img src="img/cabin-porn-4.jpg" />
+<img src="img/cabin-porn-5.jpg" />
+<img src="img/cabin-porn-6.jpg" />
+<img src="img/cabin-porn-7.jpg" />
+<img src="img/cabin-porn-8.jpg" />
+<img src="img/cabin-porn-9.jpg" />
+<img src="img/cabin-porn-10.jpg" />
+<img src="img/cabin-porn-11.jpg" />
+<img src="img/cabin-porn-12.jpg" />
+````
+
+**Step 3**
+
+Add a paragraph to display messages. (This will make sense in about 6 more lines of code.)
+
+`<p>My width is </p>`
 
