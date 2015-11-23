@@ -38,7 +38,7 @@ Inspect the files within the folder labeled "img".
 
 Fire up Sublime Text and create a new HTML file.
 
-````
+```
 <!doctype html>
 
 <html>
@@ -51,13 +51,13 @@ Fire up Sublime Text and create a new HTML file.
 <body></body>
 
 </html>
-````
+```
 
 **Step 2**
 
 Add the images.
 
-````
+```
 <img src="img/cabin-porn-1.jpg" />
 <img src="img/cabin-porn-2.jpg" />
 <img src="img/cabin-porn-3.jpg" />
@@ -70,7 +70,7 @@ Add the images.
 <img src="img/cabin-porn-10.jpg" />
 <img src="img/cabin-porn-11.jpg" />
 <img src="img/cabin-porn-12.jpg" />
-````
+```
 
 Let’s envision a scenario whereby we wish to dynamically scale the cabin images in columns of increasing number as the observing browser-width increases.
 
@@ -88,22 +88,115 @@ Add a paragraph to display messages to ourselves. (This will make sense in about
 
 Let’s establish our logic in psuedocode.
 
-*When the browser-width is 0 to 480 pixels, dynamically scale the images within a single column
-*When the browser-width is 480 to 960 pixels, dynamically scale the images within two columns
-*When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns
-*When the browser-width is 1440 pixels and above, dynamically scale the images within four columns
+* When the browser-width is 0 to 480 pixels, dynamically scale the images within a single column
+* When the browser-width is 480 to 960 pixels, dynamically scale the images within two columns
+* When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns
+* When the browser-width is 1440 pixels and above, dynamically scale the images within four columns
 
 **Step 5**
 
-Between the opening and closing <head> tags, add this block of code…
+Between the opening and closing `<style>` tags, add this block of code:
 
 ````
-<style>
-	@media (min-width: 0px) and (max-width: 480px){
-		p:after { content: "between 0 and 480px"; }
-	}
-</style>
+@media (min-width: 0px) and (max-width: 480px){
+	p:after { content: "between 0 and 480px"; }
+}
 ````
+
+**Step 6**
+
+Write the rules required to set the columns according to each set of browser-width conditions:
+
+```
+@media (min-width: 0px) and (max-width: 480px){
+	/* Display a message describing the current browser width */
+	p:after { content: "between 0 and 480px"; }
+	/* Create a single-column layout */
+	img { width: 100%; }
+}
+```
+
+**The Finished Exercise**
+
+```
+<!doctype html>
+
+<html>
+
+	<head>
+
+	<meta charset="utf-8" >
+
+	<style>
+
+		@media (min-width: 0px) and (max-width: 480px){
+			/* Display a message describing the current browser width */
+			p:after { content: "between 0 and 480px"; }
+			/* Create a single-column layout */
+			img { width: 100%; }
+		}
+
+		@media (min-width: 480px) and (max-width: 960px) {
+			/* Display a message describing the current browser width */
+			p:after { content: "between 480 and 960px"; }
+			/* Create a 2-column layout */
+			img { width: 49%; }
+		}
+
+		@media (min-width: 960px) and (max-width: 1440px) {
+			/* Display a message describing the current browser width */
+			p:after { content: "between 960 and 1440px"; }
+			/* Create a 3-column layout */
+			img { width: 33%; }
+		}
+
+		@media (min-width: 1440px) {
+			/* Display a message describing the current browser width */
+			p:after { content: "greater than 1440px"; }
+			/* Create a four-column layout */
+			img {
+				width: 24%;
+			}
+		}
+
+	</style>
+
+	</head>
+
+	<body>
+
+		<p>My width is </p>
+
+		<img src="img/cabin-porn-1.jpg" />
+
+		<img src="img/cabin-porn-2.jpg" />
+
+		<img src="img/cabin-porn-3.jpg" />
+
+		<img src="img/cabin-porn-4.jpg" />
+
+		<img src="img/cabin-porn-5.jpg" />
+
+		<img src="img/cabin-porn-6.jpg" />
+
+		<img src="img/cabin-porn-7.jpg" />
+
+		<img src="img/cabin-porn-8.jpg" />
+
+		<img src="img/cabin-porn-9.jpg" />
+
+		<img src="img/cabin-porn-10.jpg" />
+
+		<img src="img/cabin-porn-11.jpg" />
+
+		<img src="img/cabin-porn-12.jpg" />
+
+	</body>
+
+</html>
+
+```
+
 
 
 
