@@ -2,7 +2,7 @@
 
 ##Introduction
 
-Device manufacturers compete by offering displays with higher-and-higher resolutions with each release cycle.
+Device manufacturers compete by offering displays with higher-and-higher resolutions each release cycle.
 
 In October of 2015, Apple announced all 27-inch iMacs will be sold with a [5K display](www.theverge.com/2015/10/13/9512503/apple-imac-update-27-inch-5k-price-release-date-specs).
 
