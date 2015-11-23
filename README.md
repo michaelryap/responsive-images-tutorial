@@ -88,18 +88,21 @@ Add a paragraph to display messages to ourselves. (This will make sense in about
 
 Let’s establish our logic in psuedocode.
 
-When the browser-width is 0 to 480 pixels, dynamically scale the images within a single column.
+-When the browser-width is 0 to 480 pixels, dynamically scale the images within a single column.
+-When the browser-width is 480 to 960 pixels, dynamically scale the images within two columns.
+-When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns.
+-When the browser-width is 1440 pixels and above, dynamically scale the images within four columns.
 
-When the browser-width is 480 to 960 pixels, dynamically scale the images within two columns.
+**Step 5**
 
-When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns.
-
-When the browser-width is 1440 pixels and above, dynamically scale the images within four columns.
+Between the opening and closing <head> tags, add this block of code…
 
 ````
-@media (min-width: 0px) and (max-width: 480px){
-	p:after { content: "between 0 and 480px"; }
-}
+<style>
+	@media (min-width: 0px) and (max-width: 480px){
+		p:after { content: "between 0 and 480px"; }
+	}
+</style>
 ````
 
 
