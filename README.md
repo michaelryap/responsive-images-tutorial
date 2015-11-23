@@ -53,7 +53,7 @@ Fire up Sublime Text and create a new HTML file.
 </html>
 ```
 
-**Step 2**
+**Step 3**
 
 Add the images.
 
@@ -78,13 +78,13 @@ If you open the page we’ve created in your browser, the columns increase in nu
 
 Let’s fix that.
 
-**Step 3**
+**Step 4**
 
 Add a paragraph to display messages to ourselves. (This will make sense in about 6 more lines of code.)
 
 `<p>My width is </p>`
 
-**Step 4**
+**Step 5**
 
 Let’s establish our logic in psuedocode.
 
@@ -93,7 +93,7 @@ Let’s establish our logic in psuedocode.
 * When the browser-width is 960 to 1440 pixels, dynamically scale the images within three columns
 * When the browser-width is 1440 pixels and above, dynamically scale the images within four columns
 
-**Step 5**
+**Step 6**
 
 Between the opening and closing `<style>` tags, add this block of code:
 
@@ -103,7 +103,7 @@ Between the opening and closing `<style>` tags, add this block of code:
 }
 ````
 
-**Step 6**
+**Step 7**
 
 Write the rules required to set the columns according to each set of browser-width conditions:
 
