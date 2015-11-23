@@ -232,7 +232,7 @@ Add a simple style that displays all images to 100% the width of its container.
 
 **Step 3**
 
-Add a new image and surround it with `<picture>` tags
+Add a new image and surround it with opening and closing `<picture>` tags
 
 ```
 <picture>
@@ -241,6 +241,7 @@ Add a new image and surround it with `<picture>` tags
 ```
 
 **Step 4**
+
 Add rules to display alternative images depending on the observing browser’s width.
 
 ```
